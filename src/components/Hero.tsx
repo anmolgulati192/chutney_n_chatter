@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.png'
+import Carousel from './Carousel'
 import styles from './Hero.module.scss'
 
 const whatsappLink =
@@ -39,9 +39,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.visualBlock}>
-        <div className={styles.imageFrame}>
-          <img src={heroImg} alt="Homemade food spread" />
-        </div>
+        <Carousel />
         <div className={styles.heroCard}>
           <span className={styles.heroChip}>100% hygienic & homemade</span>
           <div className={styles.heroStats}>

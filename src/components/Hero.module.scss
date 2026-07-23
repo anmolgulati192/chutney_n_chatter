@@ -78,20 +78,6 @@ p {
   align-items: start;
 }
 
-.imageFrame {
-  position: relative;
-  border-radius: 32px;
-  overflow: hidden;
-  background: linear-gradient(180deg, #fff7ef 0%, #ffe5d5 100%);
-  box-shadow: 0 28px 60px rgba(67, 44, 20, 0.18);
-}
-
-.imageFrame img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
-
 .heroCard {
   display: grid;
   gap: 18px;
