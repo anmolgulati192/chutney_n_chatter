@@ -7,18 +7,18 @@ import styles from './Carousel.module.scss'
 const slides = [
   {
     src: carousel1,
-    alt: 'Fresh homemade platter',
-    caption: 'Homemade food made with love',
+    alt: 'Starters',
+    caption: 'Delicious homemade starter favourites',
   },
   {
     src: carousel2,
-    alt: 'Starter selection',
-    caption: 'Tasty starters for your event',
+    alt: 'Main course',
+    caption: 'Hearty main course meals made fresh',
   },
   {
     src: carousel3,
-    alt: 'Main course menu',
-    caption: 'Delicious main course dishes',
+    alt: 'Sweets',
+    caption: 'Traditional sweets and desserts',
   },
 ]
 
