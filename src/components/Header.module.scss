@@ -44,26 +44,30 @@
   flex-wrap: wrap;
 }
 
-.instagram {
-  font-size: 0.95rem;
-  color: #4e423a;
-  background: rgba(244, 233, 212, 0.9);
+.actionLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   padding: 12px 18px;
   border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.instagram {
+  color: #4e423a;
+  background: rgba(244, 233, 212, 0.9);
   border: 1px solid rgba(196, 145, 60, 0.2);
 }
 
 .whatsapp {
-  font-weight: 700;
   color: #fff;
-  background: #d45f0d;
-  padding: 12px 20px;
-  border-radius: 999px;
-  box-shadow: 0 16px 30px rgba(212, 95, 13, 0.22);
+  background: #25d366;
+  box-shadow: 0 16px 30px rgba(37, 211, 102, 0.22);
 }
 
-.whatsapp:hover,
-.instagram:hover {
+.actionLink:hover {
   transform: translateY(-1px);
 }
 

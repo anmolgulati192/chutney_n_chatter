@@ -1,5 +1,6 @@
 import Carousel from './Carousel'
 import styles from './Hero.module.scss'
+import { InstagramIcon, WhatsAppIcon } from './Icons'
 
 const whatsappLink =
   'https://wa.me/?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20would%20like%20to%20place%20an%20order.'
@@ -20,19 +21,21 @@ export default function Hero() {
         </p>
         <div className={styles.ctaGroup}>
           <a
-            className={styles.primaryButton}
+            className={`${styles.primaryButton} ${styles.buttonWithIcon}`}
             href={whatsappLink}
             target="_blank"
             rel="noreferrer"
           >
+            <WhatsAppIcon />
             Book via WhatsApp
           </a>
           <a
-            className={styles.secondaryButton}
+            className={`${styles.secondaryButton} ${styles.buttonWithIcon}`}
             href={instagramLink}
             target="_blank"
             rel="noreferrer"
           >
+            <InstagramIcon />
             Visit Instagram
           </a>
         </div>

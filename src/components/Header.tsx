@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg'
 import styles from './Header.module.scss'
+import { InstagramIcon, WhatsAppIcon } from './Icons'
 
 const whatsappLink =
   'https://wa.me/?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20would%20like%20to%20place%20an%20order.'
@@ -18,19 +19,21 @@ export default function Header() {
 
       <div className={styles.actions}>
         <a
-          className={styles.instagram}
+          className={`${styles.actionLink} ${styles.instagram}`}
           href={instagramLink}
           target="_blank"
           rel="noreferrer"
         >
+          <InstagramIcon />
           @chutney_n_chatter
         </a>
         <a
-          className={styles.whatsapp}
+          className={`${styles.actionLink} ${styles.whatsapp}`}
           href={whatsappLink}
           target="_blank"
           rel="noreferrer"
         >
+          <WhatsAppIcon />
           Order on WhatsApp
         </a>
       </div>
