@@ -3,7 +3,7 @@ import styles from './Hero.module.scss'
 import { InstagramIcon, WhatsAppIcon } from './Icons'
 
 const whatsappLink =
-  'https://wa.me/?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20would%20like%20to%20place%20an%20order.'
+  'https://wa.me/+919691004754?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20would%20like%20to%20place%20an%20order.'
 const instagramLink = 'https://www.instagram.com/chutney_n_chatter'
 
 export default function Hero() {

@@ -2,7 +2,7 @@ import styles from './Footer.module.scss'
 import { WhatsAppIcon } from './Icons'
 
 const whatsappLink =
-  'https://wa.me/?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20want%20to%20order%20food.'
+  'https://wa.me/+919691004754?text=Hi%20Chutney%20%26%20Chatter%2C%20I%20want%20to%20order%20food.'
 
 export default function Footer() {
   return (
