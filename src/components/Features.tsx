@@ -7,7 +7,7 @@ const features = [
     icon: '🥥',
   },
   {
-    title: 'Rajasthani & Jain Style',
+    title: 'Rajasthani, North Indian & Jain Style',
     description: 'Pure spices and regional favourites for special menus.',
     icon: '🌿',
   },

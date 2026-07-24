@@ -15,9 +15,9 @@ export default function Hero() {
           Fresh homemade meals for small gatherings, parties and celebrations.
         </h1>
         <p>
-          Chutney & Chatter brings delicious South Indian, Rajasthani and Jain
-          home kitchen food to Jabalpur events with hygienic preparation and
-          friendly ordering through WhatsApp.
+          Chutney & Chatter brings delicious South Indian, North Indian,
+          Rajasthani and Jain home kitchen food to Jabalpur events with
+          hygienic preparation and friendly ordering through WhatsApp.
         </p>
         <div className={styles.ctaGroup}>
           <a
@@ -47,8 +47,9 @@ export default function Hero() {
           <span className={styles.heroChip}>100% hygienic & homemade</span>
           <div className={styles.heroStats}>
             <div>
-              <strong>₹250</strong>
+              <strong>Starting from ₹250*</strong>
               <p>Per person package</p>
+              <p className={styles.termsNote}>* Pricing may vary by menu choice</p>
             </div>
             <div>
               <strong>Starter • Main • Dessert</strong>

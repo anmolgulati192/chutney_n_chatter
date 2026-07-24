@@ -126,6 +126,12 @@ p {
   color: #7a6a60;
 }
 
+.termsNote {
+  margin-top: 8px !important;
+  font-size: 0.78rem;
+  color: #8b725c;
+}
+
 @media (max-width: 900px) {
   .heroSection {
     grid-template-columns: 1fr;
